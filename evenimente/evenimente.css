@@ -62,3 +62,39 @@
   border-radius: 6px;
   font-size: 14px;
 }
+:root {
+  --fundal: #f8fafc;
+  --text: #333333;
+  --suprafata: #ffffff;
+  --text-secundar: #64748b;
+  --bordura: #e2e8f0;
+}
+
+body.intunecat {
+  --fundal: #111827;
+  --text: #f9fafb;
+  --suprafata: #1f2937;
+  --text-secundar: #cbd5e1;
+  --bordura: #374151;
+}
+
+body {
+  background-color: var(--fundal);
+  color: var(--text);
+}
+
+.header,
+.card {
+  background-color: var(--suprafata);
+  color: var(--text);
+  border-color: var(--bordura);
+}
+
+.card h3 {
+  color: var(--text);
+}
+
+.card p,
+.nav-list a {
+  color: var(--text-secundar);
+}
